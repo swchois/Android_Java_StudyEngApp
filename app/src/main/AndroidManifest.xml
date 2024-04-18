@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Myproject"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".enroll" android:label="회원가입 화면"/>
+        <activity android:name=".welcome" android:label="관리자 초기 화면"/>
+        <activity android:name=".infostudent" android:label="등록 학생 정보"/>
+        <activity android:name=".manage_study" android:label="과제 관리"/>
+        <activity android:name=".dailycontentActivity" android:label="과제 생성창"/>
+        <activity android:name=".student_daily" android:label="학생 학습창"/>
+        <activity android:name=".dostudy" android:label="학생 학습창"/>
+        <activity android:name=".showVideoActivity" android:label="학생 영상학습창"/>
+        <activity android:name=".inputConver" android:label="영어 회화생성"/>
+        <activity android:name=".study_conversation" android:label="영어 일일 회화 학습"/>
+        <activity android:name=".inputProblem" android:label="영어 문제생성"/>
+        <activity android:name=".study_problem" android:label="영어 문제풀이창"/>
+    </application>
+
+</manifest>

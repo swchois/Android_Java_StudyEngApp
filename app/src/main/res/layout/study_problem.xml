@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnPrev"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#E7DEC9"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pngegg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/btnNext"
+            app:layout_constraintStart_toEndOf="@+id/btnPrev"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#E7DEC9"
+            android:rotationY="180"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pngegg"
+            app:layout_constraintStart_toEndOf="@+id/tv1"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/btnPrev" />
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="51dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="132dp"
+                android:backgroundTint="#AEBCC9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/num1"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="51dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="132dp"
+                android:backgroundTint="#FFC107"
+                android:src="@drawable/check_answer"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/no1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="150dp"
+                android:text=""
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="128dp"
+                android:src="@drawable/right"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/wrong"
+                android:layout_width="wrap_content"
+                android:layout_height="128dp"
+                android:src="@drawable/wrong"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="51dp"
+                android:layout_height="63dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/num2"
+                android:backgroundTint="#AEBCC9"
+                tools:layout_editor_absoluteX="0dp" />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="51dp"
+                android:layout_height="50dp"
+                android:src="@drawable/check_answer"
+                android:visibility="invisible"/>
+            <TextView
+                android:layout_marginStart="52dp"
+                android:id="@+id/no2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:text="" />
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="51dp"
+                android:layout_height="63dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/num3"
+                android:backgroundTint="#AEBCC9"
+                tools:layout_editor_absoluteX="0dp" />
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="51dp"
+                android:layout_height="50dp"
+                android:src="@drawable/check_answer"
+                android:visibility="invisible"/>
+            <TextView
+                android:layout_marginStart="52dp"
+                android:id="@+id/no3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:text="" />
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="51dp"
+                android:layout_height="63dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/num4"
+                android:backgroundTint="#AEBCC9"
+                tools:layout_editor_absoluteX="0dp" />
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="51dp"
+                android:layout_height="50dp"
+                android:src="@drawable/check_answer"
+                android:visibility="invisible"/>
+            <TextView
+                android:id="@+id/no4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:layout_marginStart="52dp"
+                android:text="" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:background="#E7DEC9"
+        android:text="정답확인" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/checkanswer"
+        android:textColor="@color/black"
+        android:text=""/>
+
+
+</LinearLayout>

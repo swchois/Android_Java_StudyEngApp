@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/txtwelcome"/>
+
+
+    <ImageButton
+        android:id="@+id/managestudent"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E7DEC9"
+        android:scaleType="fitCenter"
+        android:src="@drawable/student" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/managestudent"
+        android:layout_marginLeft="130dp"
+        android:gravity="center"
+        android:text="학생 관리"
+        android:id="@+id/txtmngstudent"/>
+
+    <ImageButton
+        android:id="@+id/managetask"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@+id/managestudent"
+        android:backgroundTint="#E7DEC9"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/book" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtmngtask"
+        android:text="과제 관리"
+        android:layout_marginLeft="230dp"
+        android:layout_below="@+id/managetask"/>
+
+    <ImageButton
+        android:id="@+id/searchnews"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/txtmngstudent"
+        android:layout_marginLeft="120dp"
+        android:backgroundTint="#E7DEC9"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/news" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영어 유튜브"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/searchnews"/>
+
+    <ImageButton
+        android:id="@+id/searchmedia"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/txtmngtask"
+        android:layout_toRightOf="@+id/searchnews"
+        android:backgroundTint="#E7DEC9"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/youtube" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchnews"
+        android:layout_marginLeft="130dp"
+        android:gravity="center"
+        android:text="영어 뉴스" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/datePiker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:calendarViewShown="true"
+        android:datePickerMode="calendar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnplus"
+            android:layout_width="47dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#E7DEC9"
+            android:scaleType="centerCrop"
+            android:src="@drawable/btnplus" />
+
+        <ImageButton
+            android:id="@+id/btnminus"
+            android:layout_width="47dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#AEBCC9"
+            android:scaleType="centerCrop"
+            android:src="@drawable/minus" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="26dp"
+        android:id="@+id/exist_homework"/>
+</LinearLayout>

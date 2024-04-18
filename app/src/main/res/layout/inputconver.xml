@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영어 문장 입력: " />
+        <EditText
+            android:id="@+id/edtEng1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input Sentence"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한글 문장 입력: " />
+        <EditText
+            android:id="@+id/edtKor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input Sentence"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:backgroundTint="#E7DEC9"
+            android:text="저장" />
+
+        <Button
+            android:id="@+id/rec01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AEBCC9"
+            android:text="음성 녹음" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영어 문장 입력: " />
+        <EditText
+            android:id="@+id/edtEng2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input Sentence"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한글 문장 입력: " />
+        <EditText
+            android:id="@+id/edtKor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input Sentence"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:backgroundTint="#E7DEC9"
+            android:text="저장" />
+
+        <Button
+            android:id="@+id/rec02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AEBCC9"
+            android:text="음성 녹음" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영어 문장 입력: " />
+        <EditText
+            android:id="@+id/edtEng3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input Sentence"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한글 문장 입력: " />
+        <EditText
+            android:id="@+id/edtKor3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input Sentence"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:backgroundTint="#E7DEC9"
+            android:text="저장" />
+
+        <Button
+            android:id="@+id/rec03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AEBCC9"
+            android:text="음성 녹음" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영어 문장 입력: " />
+        <EditText
+            android:id="@+id/edtEng4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input Sentence"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한글 문장 입력: " />
+        <EditText
+            android:id="@+id/edtKor4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input Sentence"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:backgroundTint="#E7DEC9"
+            android:text="저장" />
+
+        <Button
+            android:id="@+id/rec04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AEBCC9"
+            android:text="음성 녹음" />
+    </LinearLayout>
+
+</LinearLayout>
